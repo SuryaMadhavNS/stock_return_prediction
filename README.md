@@ -30,3 +30,5 @@ sell_order_capacity / total trades in the minute
 17. weighted_avg_ask_price = weighted average of the ask price over the ask size
 
 As this is a time-series prediction task, please split the train-test data appropriately. I used (sklearn) linear regression for simplicity
+Ploted the correlation of the test data with the time on the x-axis and correlation across companies
+per-minute on the y-axis.
